@@ -36,7 +36,6 @@ public class SelelectDataAddToListview extends AppCompatActivity {
         final ArrayList<String> arrayList = new ArrayList<>();
         final Button btn1 = (Button) findViewById(R.id.button1);
 
-
 //        Toast.makeText(SelelectDataAddToListview.this, "Test", Toast.LENGTH_SHORT);
 //
 //        try {
@@ -68,7 +67,6 @@ public class SelelectDataAddToListview extends AppCompatActivity {
 //                    message = " Exceptions";
 //                    Toast.makeText(SelelectDataAddToListview.this, message, Toast.LENGTH_SHORT);
 //                }
-
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -105,7 +103,6 @@ public class SelelectDataAddToListview extends AppCompatActivity {
                             listView.setAdapter(adapter);
 
                         }
-
 
                     }
 
